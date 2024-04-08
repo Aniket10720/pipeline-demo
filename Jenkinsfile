@@ -9,8 +9,8 @@ pipeline {
         }
          stage('Build') {
             steps {
-    git 'https://github.com/Aniket10720/spring-boot-war-example.git'
-            }
+            echo 'code Build'
+        
         }
       stage('Test') {
             steps {
